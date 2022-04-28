@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -31,26 +35,47 @@ h2 {
   font-size: 24px;
 }
 
-.header-section, .title-section, .footer-section, a {
-  background-color: #1F2937;
-  color: #F9FAF8;
+img {
+  width: 500px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25%;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 1rem 13rem;
 }
 
-.title-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10%;
+
+/* .header-section, .title-section, .footer-section, a {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding-bottom: 32px;
 }
 
-.title-content {
+/* .header-section, .title-section, .footer-section {
+  padding: 0 128px 32px 0;
+} */
+
+/* .header-section {
   display: flex;
   flex-direction: column;
-}
+  gap: 25%;
+} */
+
+/* .title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .title-content {
+  display: flex;
+  flex-direction: column;
+} */ 
