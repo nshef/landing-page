@@ -30,7 +30,7 @@ a {
 }
 
 h1, h2, h3 {
-  margin: 8px 0;
+  margin: 16px 0;
 }
 
 h1 {
@@ -41,6 +41,7 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: 700;
+  margin-top: 32px;
 }
 
 h3 {
@@ -99,38 +100,29 @@ button {
 }
 
 .image-section {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-card-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px;
 }
 
 .image-card {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-}
-
-/* .header-section, .title-section, .footer-section, a {
-  background-color: #1F2937;
-  color: #F9FAF8;
-  padding-bottom: 32px;
-}
-
-/* .header-section, .title-section, .footer-section {
-  padding: 0 128px 32px 0;
-} */
-
-/* .header-section {
-  display: flex;
-  flex-direction: column;
-  gap: 25%;
-} */
-
-/* .title-section {
-  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 125px;
   align-items: center;
-} */
+  margin: 0 32px;
+  text-align: center;
+}
 
-/* .title-content {
-  display: flex;
-  flex-direction: column;
-} */ 
+.image-card p {
+  font-size: 16px;
+}
